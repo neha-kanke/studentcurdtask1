@@ -51,7 +51,7 @@
             </tr>
           </thead>
           <tbody >
-            <tr *ngFor="let std of Stdudentarr; index as i" trackById>
+            <tr *ngFor="let std of Stdudentarr; index as i" trackBy:trackById>
               <td>{{ i + 1 }}</td>
               <td>{{ std.fName }} {{ std.lName }}</td>
               <td>{{ std.Email }}</td>
